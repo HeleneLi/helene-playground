@@ -13,5 +13,5 @@ setup(name='helene-playground',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/helene-playground-run'],
+      scripts=['scripts/helene-playground-run', 'scripts/helene-playground-computedist'],
       zip_safe=False)
